@@ -1,13 +1,9 @@
 package pl.gda.wsb;
 
-public class Actions {
+public interface Actions {
 
-    public void drive(Double kilometersCounter){
+    public void drive(Double kilometersCounter);
 
-    }
-
-    public void refuel() {
-
-    }
+    public void refuel();
 
 }
