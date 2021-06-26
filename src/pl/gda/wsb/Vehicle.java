@@ -22,7 +22,6 @@ public abstract class Vehicle {
     }
 
     public class Car extends Vehicle{
-        double number_of_dors;
 
 
         public Car(String registration_numbers, String vinNumber, String color, double price, double carCombustion, double fuelTankCondition, double kilometersTraveled){
