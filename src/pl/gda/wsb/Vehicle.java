@@ -21,7 +21,23 @@ public abstract class Vehicle {
     this.kilometersTraveled= kilometersTraveled;
     }
 
+    public class Car extends Vehicle{
 
+        public Car(String registration_numbers, String vin_number, String color, double price, double carCombustion, double fuelTankCondition, double kilometersTraveled){
+            super(registration_numbers, vin_number, color, price, carCombustion, fuelTankCondition, kilometersTraveled);
+        }
+    }
+    public class Truck extends Vehicle{
 
+        public Truck(String registration_numbers, String vin_number, String color, double price, double carCombustion, double fuelTankCondition, double kilometersTraveled){
+            super(registration_numbers, vin_number, color, price, carCombustion, fuelTankCondition, kilometersTraveled);
+        }
+    }
+    public class Motorcycle extends Vehicle{
+
+        public Motorcycle(String registration_numbers, String vin_number, String color, double price, double carCombustion, double fuelTankCondition, double kilometersTraveled){
+            super(registration_numbers, vin_number, color, price, carCombustion, fuelTankCondition, kilometersTraveled);
+        }
+    }
 
 }
