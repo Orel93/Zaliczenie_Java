@@ -5,10 +5,10 @@ public abstract class Vehicle {
     String registration_numbers;
     String vinNumber;
     String color;
-    double price;
-    double carCombustion;
-    double fuelTankCondition;
-    double kilometersTraveled;
+    Double price;
+    Double carCombustion;
+    Double fuelTankCondition;
+    Double kilometersTraveled;
 
     public Vehicle(String registration_numbers, String vinNumber, String color, double price, double carCombustion, double fuelTankCondition, double kilometersTraveled)
     {
