@@ -20,31 +20,4 @@ public abstract class Vehicle {
     this.fuelTankCondition= fuelTankCondition;
     this.kilometersTraveled= kilometersTraveled;
     }
-
-    public class Car extends Vehicle{
-        double numberOfDors;
-
-
-        public Car(String registration_numbers, String vinNumber, String color, double price, double carCombustion, double fuelTankCondition, double kilometersTraveled){
-            super(registration_numbers, vinNumber, color, price, carCombustion, fuelTankCondition, kilometersTraveled);
-            this.numberOfDors = numberOfDors;
-        }
-    }
-    public class Truck extends Vehicle{
-        double capacity;
-
-        public Truck(String registration_numbers, String vinNumber, String color, double price, double carCombustion, double fuelTankCondition, double kilometersTraveled){
-            super(registration_numbers, vinNumber, color, price, carCombustion, fuelTankCondition, kilometersTraveled);
-            this.capacity = capacity;
-        }
-    }
-    public class Motorcycle extends Vehicle{
-        double horsepower;
-
-        public Motorcycle(String registration_numbers, String vinNumber, String color, double price, double carCombustion, double fuelTankCondition, double kilometersTraveled){
-            super(registration_numbers, vinNumber, color, price, carCombustion, fuelTankCondition, kilometersTraveled);
-            this.horsepower = horsepower;
-        }
-    }
-
 }
